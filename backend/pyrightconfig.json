@@ -1,0 +1,11 @@
+{
+  "venvPath": ".",
+  "venv": "venv",
+  "pythonPath": "./venv/bin/python",
+  "include": ["app"],
+  "exclude": ["**/__pycache__"],
+  "typeCheckingMode": "basic",
+  "useLibraryCodeForTypes": true,
+  "reportMissingModuleSource": "none",
+  "reportMissingImports": "warning"
+}

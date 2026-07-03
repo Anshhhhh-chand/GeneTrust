@@ -1,0 +1,9 @@
+[python]
+python_interpreter = "venv/bin/python"
+
+[project]
+root = "."
+
+[check]
+# Suppress false positives from relative imports in virtual files
+ignore_missing_imports = true
